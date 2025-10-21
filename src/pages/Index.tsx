@@ -3,6 +3,7 @@ import About from "@/components/About";
 import Experience from "@/components/Experience";
 import Projects from "@/components/Projects";
 import Achievements from "@/components/Achievements";
+import SocialProfiles from "@/components/SocialProfiles";
 import Contact from "@/components/Contact";
 
 const Index = () => {
@@ -13,6 +14,7 @@ const Index = () => {
       <Experience />
       <Projects />
       <Achievements />
+      <SocialProfiles />
       <Contact />
     </div>
   );

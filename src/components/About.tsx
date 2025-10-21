@@ -3,7 +3,7 @@ import { GraduationCap, Code, Brain } from "lucide-react";
 
 const About = () => {
   const skills = [
-    "Python", "Machine Learning", "Data Analysis", "Deep Learning",
+    "Python", "Java", "C", "C++", "Machine Learning", "Data Analysis", "Deep Learning",
     "Natural Language Processing", "TensorFlow", "Scikit-learn", "Pandas",
     "Data Visualization", "Web Development"
   ];
