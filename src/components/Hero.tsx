@@ -1,5 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { Github, Linkedin, Mail } from "lucide-react";
+import profileImage from "@/assets/profile.jpg";
 
 const Hero = () => {
   return (
@@ -40,7 +41,7 @@ const Hero = () => {
                   size="lg" 
                   variant="outline"
                   className="border-2 border-foreground text-foreground hover:bg-foreground hover:text-background rounded-full px-8"
-                  onClick={() => window.open('https://linkedin.com', '_blank')}
+                  onClick={() => window.open('https://www.linkedin.com/in/aayati-srivastava?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap', '_blank')}
                 >
                   LinkedIn
                 </Button>
@@ -53,14 +54,11 @@ const Hero = () => {
           <div className="relative hidden md:block">
             <div className="relative w-full aspect-square max-w-lg mx-auto">
               <div className="absolute inset-0 bg-card rounded-[3rem] overflow-hidden">
-                <div className="w-full h-full bg-gradient-to-br from-primary/20 to-accent/20 flex items-center justify-center">
-                  <div className="text-center space-y-4">
-                    <div className="w-32 h-32 bg-primary/30 rounded-full mx-auto flex items-center justify-center">
-                      <span className="text-6xl">👩‍💻</span>
-                    </div>
-                    <div className="text-foreground/60 font-medium">Data Science Enthusiast</div>
-                  </div>
-                </div>
+                <img 
+                  src={profileImage} 
+                  alt="Aayati Srivastava - Data Science Enthusiast"
+                  className="w-full h-full object-cover"
+                />
               </div>
             </div>
           </div>
@@ -68,15 +66,15 @@ const Hero = () => {
       </div>
 
       <div className="absolute bottom-8 left-8 flex gap-4 z-20">
-        <a href="https://github.com" target="_blank" rel="noopener noreferrer" 
+        <a href="https://github.com/aayati-srivastava" target="_blank" rel="noopener noreferrer" 
            className="w-14 h-14 bg-accent text-accent-foreground rounded-full flex items-center justify-center hover:shadow-[var(--shadow-glow)] transition-all duration-300">
           <Github className="w-6 h-6" />
         </a>
-        <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer"
+        <a href="https://www.linkedin.com/in/aayati-srivastava?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap" target="_blank" rel="noopener noreferrer"
            className="w-14 h-14 bg-accent text-accent-foreground rounded-full flex items-center justify-center hover:shadow-[var(--shadow-glow)] transition-all duration-300">
           <Linkedin className="w-6 h-6" />
         </a>
-        <a href="mailto:your.email@example.com"
+        <a href="mailto:aayati.sri@gmail.com"
            className="w-14 h-14 bg-accent text-accent-foreground rounded-full flex items-center justify-center hover:shadow-[var(--shadow-glow)] transition-all duration-300">
           <Mail className="w-6 h-6" />
         </a>

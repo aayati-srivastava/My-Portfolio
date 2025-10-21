@@ -17,18 +17,18 @@ const Contact = () => {
         <Card className="p-8 border-2 hover:border-primary hover:shadow-[var(--shadow-glow)] transition-all duration-300">
           <div className="grid md:grid-cols-3 gap-6">
             <a 
-              href="mailto:your.email@example.com"
+              href="mailto:aayati.sri@gmail.com"
               className="flex flex-col items-center gap-3 p-6 rounded-lg hover:bg-gradient-to-r hover:from-primary/5 hover:to-accent/5 transition-all group"
             >
               <div className="p-4 bg-gradient-to-r from-primary to-accent rounded-full group-hover:shadow-[var(--shadow-glow)] transition-all">
                 <Mail className="w-6 h-6 text-white" />
               </div>
               <span className="font-medium">Email</span>
-              <span className="text-sm text-muted-foreground text-center">your.email@example.com</span>
+              <span className="text-sm text-muted-foreground text-center">aayati.sri@gmail.com</span>
             </a>
 
             <a 
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/aayati-srivastava?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_ap"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-3 p-6 rounded-lg hover:bg-gradient-to-r hover:from-primary/5 hover:to-accent/5 transition-all group"
@@ -41,7 +41,7 @@ const Contact = () => {
             </a>
 
             <a 
-              href="https://github.com"
+              href="https://github.com/aayati-srivastava"
               target="_blank"
               rel="noopener noreferrer"
               className="flex flex-col items-center gap-3 p-6 rounded-lg hover:bg-gradient-to-r hover:from-primary/5 hover:to-accent/5 transition-all group"
@@ -58,7 +58,7 @@ const Contact = () => {
             <Button 
               size="lg"
               className="bg-gradient-to-r from-primary to-accent hover:shadow-[var(--shadow-glow)] transition-all duration-300"
-              onClick={() => window.location.href = 'mailto:your.email@example.com'}
+              onClick={() => window.location.href = 'mailto:aayati.sri@gmail.com'}
             >
               Get In Touch
             </Button>
